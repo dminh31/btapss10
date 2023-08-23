@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- xét 3 cạnh có phải của tam giác k -->
+    <script>
+        let a=+prompt("nhập a")
+        let b = +prompt("nhập b")
+        let c = +prompt("nhập c")
+        if (a>0 && b>0 && c>0) {
+            if (a+b>c && b+c>a && a+c>b) {
+                alert("a,b,c là cạnh của tam giác")
+            }
+        }else {
+            alert("k là cạnh của tam giác")
+        }
+    </script>
+</body>
+</html>

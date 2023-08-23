@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Cách 1:
+        /* let a=+prompt("nhập a");
+        let b=+prompt("nhập b");
+        let c=+prompt("nhập c");
+        let x;
+        if (a!=0 && b!=0) {
+            x= (c-b) /a;
+            alert(x)
+        }else if(a==0){
+            alert("vô nghiệm")
+        }else if(a!=0 && b==0){
+            x=(c/a)
+            alert(x)
+        } */
+
+        // Cách 2
+        let a=+prompt("nhập a")
+        let b=+prompt("nhập b")
+        // let x=(-b)/a
+        if (a==0) {
+            if (b==0) {
+                alert("vô số no")
+            }else {
+                alert("pt vô nghiệm")
+            }
+        }else {
+            alert("pt có no x=-b/a")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- pt bậc 2 -->
+    <script>
+        let a=+prompt("nhập a")
+        let b=+prompt("nhập b")
+        let c=+prompt("nhập c")
+        let delta=(b**2 - 4*a*c)
+        let sqrt=Math.sqrt(delta)
+        if (delta==0) {
+            alert(`pt có no kép ${-b/2*a}`)
+        } else if (delta>0) {
+            alert(`pt có 2 no pbiet ${(-b-sqrt)/2*a}`)
+            alert(`pt có 2 no pbiet ${(-b + sqrt) / 2 * a}`)
+        } else {
+            alert("vô nghiệm")
+        }
+    </script>
+</body>
+</html>
